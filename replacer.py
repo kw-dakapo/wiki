@@ -8,6 +8,6 @@ for htmls in files:
         with open(htmls, 'rt', encoding='utf-8') as f:
             x = f.read()
         with open(htmls, 'wt', encoding='utf-8') as f:
-            x = x.replace('index.php?title=', 'dakapo_wiki/')
+            x = x.replace('index.php?title=', 'wiki/')
             f.write(x)
 
